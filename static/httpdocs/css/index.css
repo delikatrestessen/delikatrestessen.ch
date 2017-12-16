@@ -57,6 +57,15 @@ hr {
   padding-bottom: 10px;
 }
 
+.fridge-img {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 800px;
+}
+
 #kontakt {
   background-color: #b8b8c3;
   color: black;
