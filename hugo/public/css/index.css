@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial,sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+p, li {
+  font-size: 120%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 60px;
+  border-top: 3px solid #888;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+/* Keep a minimal height for the carousel images while preserving the aspect ratio */
+.carousel img {
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar-default {
+  background-color: rgba(76, 76, 76, 0.2);
+}
+
+.thumbnail {
+  border:0px;
+  background-color: inherit;
+}
+
+.thumbnail > img {
+  padding-bottom: 10px;
+}
+
+.fridge-img {
+    width: 500px;
+}
+
+.panel-img {
+    width: 400px;
+}
+
+#kontakt {
+  background-color: #b8b8c3;
+  color: black;
+}
+
+#projekte {
+  background-color: #b8b8c3;
+  color: black;
+}
+
+#projekte p {
+  text-align: justify;
+}
+
+#projekte img {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#fotos {
+  background-color: #474e5d;
+  color: white;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  color: white;
+}
+
+#newsletter {
+  background-color: #b8b8c3;
+  color: black;
+}
+
+#unterricht  {
+  background-color: #474e5d;
+  color: white;
+}

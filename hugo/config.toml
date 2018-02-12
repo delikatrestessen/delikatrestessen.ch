@@ -1,0 +1,7 @@
+languageCode = "de-ch"
+title = "Delikatrestessen - SOF"
+baseurl = "http://www.delikatrestessen.ch/"
+theme = "singlepage"
+
+[blackfriday]
+   hrefTargetBlank = true
