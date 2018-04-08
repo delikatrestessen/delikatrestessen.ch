@@ -56,8 +56,13 @@ if ($msg != ''){
                 // Everything OK - do the upload
                 $tempPath = $this->uploadLocation . "../tmp.jpg";
                 $targetPath = $this->uploadLocation . "../" . $this->targetName;
+                $savePath = $this->uploadLocation . "../" . date("Ymd-His") . "_" . $this->targetName;
 
                 if(@move_uploaded_file($_FILES['myfile']['tmp_name'], $tempPath)) {
+
+                    // Save old image
+                    rename($targetPath,$savePath);
+
                     // Resize and rotate the uploaded file
                     $size = getimagesize($tempPath);
                     if( $size[2] & IMG_JPG) {
